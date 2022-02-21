@@ -1,0 +1,219 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html{
+    scroll-behavior:  smooth;
+    
+}
+.header{
+    display: flex;
+    
+    justify-content: center;    
+    
+}
+
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    background-color:  #0C0C0C;
+    width: 100%;
+    height: 100%;
+}
+
+.space{
+    padding-top: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.links_header{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+
+}
+.button{
+    outline: none;
+    border: none;
+    width: 224px;
+    height: 50px;;
+    background-color: #9BF00B;
+    font-family: 'Inter', sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #0C0C0C;
+    cursor: pointer;
+}
+.section_xbox{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+       
+    color: white;
+    position: relative;
+    
+    
+    
+    
+}
+.xbox_series_wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 7%;
+   
+}
+.xbox_series{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 115%;
+    color: #FFFFFF;
+}
+.xbox_pedidos{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9BF00B;
+    margin-top: 48px;
+}
+
+.background_element {
+    width: 48%;
+    height: 300px;
+   
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(134, 207, 9, 0.258984) 20.31%,
+      rgba(155, 240, 11, 0.3) 23.53%,
+      rgba(0, 219, 0, 0.3) 35.42%,
+      rgba(0, 123, 0, 0.3) 40.63%,
+      rgba(0, 132, 0, 0.3) 49.51%);
+    opacity: 0.7;
+    border: 1px solid #000000;
+    filter: blur(110px);
+    position: absolute;
+    
+    
+  }
+  .xbox_console{
+      width: 100%;
+      height: 550px;
+      background: linear-gradient(0deg, #0D0D0D 0%, rgba(13, 13, 13, 0) 20%), url(./assets/xbox.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    z-index: 1;   
+      
+    }
+    .sect_desempenho{
+        margin-top: 300px;
+        display: flex;
+        width: 100%;
+        margin-bottom: 300px;
+      
+        justify-content: center;
+    }
+    .desempenho{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .text_desempenho{
+        display: flex;
+        flex-direction: column;
+    }
+    #text_desempenho{
+        font-family:   'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    color: #9BF00B;
+    }
+    #text_aperf{
+        font-family:   'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 130%;
+        color: white;
+    }
+    .text_controle{
+    margin-top: 40px;
+    width: 68%;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 170%;
+    color: #C0C0C0;
+    flex-wrap: wrap;
+    }
+    
+    .content_games{
+        display: flex;
+        
+    }
+    .games{
+        width: 100%;
+    }
+    .sect_perguntas{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+   .perguntas{
+       margin-top: 300px;
+       color: white;
+       display: flex;
+       flex-direction: column;
+       width: 70%;
+       
+   }
+   #perguntas{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    color: #9BF00B;
+   
+    
+   }
+
+   .perguntas span{
+       display: flex;
+        align-items: center;
+        font-family: 'Inter',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 100%;
+        color: white;
+        
+   }
